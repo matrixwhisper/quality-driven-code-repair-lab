@@ -66,8 +66,8 @@ Check the current model card and license before redistribution or external use.
 
 ## Dataset and quality review
 
-The current corpus is a deliberately small pilot: **10 original, hand-authored
-tasks across 9 task families**. Each accepted task stores its specification,
+The current corpus is a deliberately small pilot: **11 original, hand-authored
+tasks across 10 task families**. Each accepted task stores its specification,
 buggy starter, reference implementation, runnable tests, difficulty, coverage
 tags, provenance, and review note in `dataset.py`. The review ledger records a
 revised example and a rejected example with reasons.

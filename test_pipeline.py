@@ -28,7 +28,7 @@ TRAIN_TASKS = split_tasks(seed=2026)["train"]
 class DatasetTests(unittest.TestCase):
 	def test_reviewed_tasks_are_structurally_complete(self) -> None:
 		self.assertEqual(validate_task_records(), [])
-		self.assertEqual(len(TASKS), 10)
+		self.assertEqual(len(TASKS), 11)
 		self.assertTrue(all(task.review_status == "accepted" for task in TASKS))
 
 	def test_references_pass_and_known_seeds_fail(self) -> None:
